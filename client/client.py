@@ -6,6 +6,6 @@ PORT = 81
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.connect((HOST, PORT))
 s.sendall('111')
-data = s.recv(1024)
+data1 = s.recv(1024)
 s.close()
-print(data)
+print(data1)
