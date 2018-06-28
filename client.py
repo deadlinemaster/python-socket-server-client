@@ -1,8 +1,7 @@
 import socket
 
 HOST = "192.168.1.45"
-PORT = 81
-
+PORT = 777
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.connect((HOST, PORT))
 s.sendall('111')
